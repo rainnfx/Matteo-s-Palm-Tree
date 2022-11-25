@@ -241,3 +241,11 @@ section {
 }
 
 .home {margin: 0; height: 100%; overflow: hidden}
+
+.sections {
+  font-size: 30px;
+  /*text-align: center;*/
+  margin-left: 415px;
+  margin-top: -10px;
+  color: #ccd6f6;
+}
