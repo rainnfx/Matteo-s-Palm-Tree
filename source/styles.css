@@ -1,0 +1,192 @@
+/*NAVBAR*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+:root {
+  --navbar-height:70px;
+  --section-top-margin: 50px;
+}
+
+body {
+  background: #0d192c;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: var(--navbar-height);
+  background: #0d192c;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 15px 15px rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+  color: #ccd6f6;
+  text-decoration: none;
+  font-size: 1.5em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  position: relative;
+  top: 7px;
+  right: 20px;
+}
+
+.group {
+  display: flex;
+  align-items: center;
+}
+
+header ul {
+  position: relative;
+  display: flex;
+  gap: 30px;
+}
+
+header ul li {
+  list-style: none;
+}
+
+header ul li a {
+  position: relative;
+  text-decoration: none;
+  font-size: 1.2em;
+  color: #8892b0;
+  /*text-transform: uppercase;*/
+  letter-spacing: 0.2em;
+}
+
+header ul li a::before {
+  content: ' ';
+  position: absolute;
+  bottom: -2px;
+  width: 100%;
+  height: 2px;
+  background: #8892b0;
+  transform: scaleX(0);
+  transition: transform 0.5s ease-in-out;
+  transform-origin: right;
+}
+
+header ul li a:hover::before {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+.menuToggle {
+  position: relative;
+  display: none;
+  color: #ccd6f6;
+}
+
+@media (max-width: 800px) {
+  .menuToggle {
+    position: absolute;
+    display: block;
+    font-size: 2em;
+    cursor: pointer;
+    transform: translateX(30px);
+    z-index: 10;
+  }
+  header .navigation {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    left: 100%;
+  }
+  header.open .navigation {
+    top: 80px;
+    opacity: 1;
+    visibility: visible;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    background: #0b1c35;
+    width: 100%;
+    height: calc(100vh - var(--navbar-height));
+    padding: 40px;
+    border-top: 1px solid #0e2444;
+  }
+  header.open .navigation li a {
+    font-size: 1.25em;
+  }
+  .hide {
+    display: none;
+  }
+}
+
+section {
+  margin-top:calc(var(--navbar-height) + var(--section-top-margin));
+}
+
+/*Home Page*/
+
+.homee {
+  position: relative;
+  margin-bottom: 200px;
+}
+
+.text {
+  float: right;
+  margin-right: 500px;
+  margin-top: 70px;
+}
+
+.img {
+  float: left;
+  margin-left: 350px;
+}
+
+/* h1 template */
+.welcome {
+    font-size: 50px;
+    color: #ccd6f6;
+    animation: 1s ease-out 0s 1 slideIn;
+}
+
+/* h2 template */
+
+.sub-title {
+  font-size: 35px;
+  color: #8892b0;
+}
+
+/* p template */
+
+.welcome2 {
+  font-size: 20px;
+  color: #8892b0;
+}
+
+.school_blog {
+  cursor: pointer;
+  color: #64ffda;
+  background-color: transparent;
+  border: 1px solid #64ffda;
+  border-radius: 6px;
+  padding: 0.75rem 1.25rem;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.school_blog:hover {
+  background-color: #64ffda;
+  color: #0b1c35;
+  transition: 0.5s;
+  text-decoration: none;
+}
+
+.home {margin: 0; height: 100%; overflow: hidden}
