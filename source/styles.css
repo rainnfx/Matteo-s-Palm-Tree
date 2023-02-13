@@ -135,26 +135,26 @@ section {
 /*Home Page*/
 
 .homee {
-  position: relative;
+  height: 700px; /* increased the height */
+  position: relative; /* added position property */
   margin-bottom: 200px;
 }
 
 .text {
-  float: right;
-  margin-right: 500px;
-  margin-top: 70px;
+  position: absolute; /* changed from float to absolute */
+  right: 575px; /* added right property */
+  top: 70px; /* added top property */
 }
 
 .img {
-  float: left;
-  margin-left: 350px;
+  position: absolute; /* changed from float to absolute */
+  left: 375px; /* added left property */
 }
 
 /* h1 template */
 .welcome {
     font-size: 50px;
     color: #ccd6f6;
-    animation: 1s ease-out 0s 1 slideIn;
 }
 
 /* h2 template */
@@ -171,7 +171,7 @@ section {
   color: #8892b0;
 }
 
-.school_blog {
+.scrollBtn {
   cursor: pointer;
   color: #64ffda;
   background-color: transparent;
@@ -180,13 +180,64 @@ section {
   padding: 0.75rem 1.25rem;
   text-decoration: none;
   transition: 0.5s;
+  font-size: 15px;
 }
 
-.school_blog:hover {
+.scrollBtn:hover {
   background-color: #64ffda;
   color: #0b1c35;
   transition: 0.5s;
   text-decoration: none;
 }
 
-.home {margin: 0; height: 100%; overflow: hidden}
+.home {margin: 0; height: 100%; overflow: auto}
+
+/*About Me Section*/
+
+hr {
+  height: 2px;
+  width: 85%; /* set the width of the hr */
+  border-radius: 2px; /* make the hr rounded */
+  border: 2px solid rgb(95, 106, 160); /* add a border */
+  margin: auto; /* to center the element horizontally */
+  display: block; /* to make the element a block-level element */
+}
+
+.title {
+  color: #ccd6f6;
+  margin-left: 150px;
+  margin-top: 20px;
+  font-size: 25px;
+  float: left;
+}
+
+.exp {
+  font-size: 11px;
+  color: #8892b0;
+  float: right;
+  margin-right: 150px;
+  margin-top: 20px;
+}
+
+.programming {
+  position: relative;
+  top: 10px;
+  height: 447.97px;
+  width: 635.99px;
+  left: 150px;
+}
+
+.coding {
+  border-radius: 7px;
+}
+
+.topic {
+  color: #ccd6f6;
+
+}
+
+.info {
+  position: relative;
+  color: #8892b0;
+  top: 7px;
+}
