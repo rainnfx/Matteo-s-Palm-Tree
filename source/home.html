@@ -29,7 +29,7 @@
             </div>
           </header>
 
-          <!-- Actual Page -->
+          <!-- Quick Intro -->
 
         <section class="homee">
           <div>
@@ -53,10 +53,66 @@
 
             <br>
 
-            <a class="school_blog" href="https://blog44.ca/matteoa" target=”_blank” rel="noreferrer">Check Out My School Blog!</a>
+
+            <button class="scrollBtn" id="scrollBtn">Learn more about myself!</button>
             </div>
 
           </div>
+
+        </section>
+
+        <!-- About Me -->
+
+        <section class="abt-mee">
+
+          <div>
+
+            <hr>
+
+            <div class="title">
+            <h3 class="abme">My Lovely Interests</h3>
+            </div>
+
+            <div class="exp">
+              <p class="welcome2">I chose a few things that interest me, such as Tech, or Graphic Design.</p>
+            </div>
+          </div>
+
+          <div class="my-ints">
+
+            <div class="programming">
+              <div class="coding-gif">
+                <img src="./assets/coding.gif"
+                class="coding"
+                height="268.5"
+                width="480"
+                >
+              </div>
+
+              <h3 class="topic">Programming</h3>
+              <p class="info">I have always been interested, though I never actually did it
+                <br> until I got my first laptop. Then I messed with Roblox's LUAU,
+                <br> then after I got out of that phase, I moved onto Web Development.
+              </p>
+
+          </div>
+
+          <div class="programming">
+            <div class="coding-gif">
+              <img src="./assets/coding.gif"
+              class="coding"
+              height="268.5"
+              width="480"
+              >
+            </div>
+
+            <h3 class="topic">Programming</h3>
+            <p class="info">I have always been interested, though I never actually did it
+              <br> until I got my first laptop. Then I messed with Roblox's LUAU,
+              <br> then after I got out of that phase, I moved onto Web Development.
+            </p>
+
+        </div>
 
         </section>
 
@@ -73,6 +129,15 @@
         menuToggle.onclick = function() {
         header.classList.toggle('open');
         }
+
+        const button = document.querySelector('#scrollBtn');
+  button.addEventListener('click', function() {
+    window.scroll({
+      top: window.innerHeight,
+      left: 0,
+      behavior: 'smooth'
+    });
+  });
     </script>
 
   </body>
