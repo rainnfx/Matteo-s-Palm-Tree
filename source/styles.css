@@ -203,6 +203,13 @@ hr {
   display: block; /* to make the element a block-level element */
 }
 
+.my-ints {
+  height: 500px;
+  display: flex;
+  top: 50px;
+}
+
+
 .title {
   color: #ccd6f6;
   margin-left: 150px;
@@ -221,10 +228,11 @@ hr {
 
 .programming {
   position: relative;
-  top: 10px;
+  top: 75px;
   height: 447.97px;
   width: 635.99px;
-  left: 150px;
+  left: -145px;
+  float: left;
 }
 
 .coding {
@@ -240,4 +248,78 @@ hr {
   position: relative;
   color: #8892b0;
   top: 7px;
+}
+
+.hermione {
+  position: relative;
+  top: 75px;
+  height: 447.97px;
+  width: 635.99px;
+  right: 100px;
+  float: right;
+}
+
+.tech {
+  position: relative;
+  top: 75px;
+  height: 447.97px;
+  width: 635.99px;
+  right: 60px;
+  float: right;
+}
+
+/*Footer Section*/
+
+.footer-img {
+  position: relative;
+  margin-left: 25px;
+  float: left;
+}
+
+.copyright {
+  position: relative;
+  float: left;
+  color: #8892b0;
+  margin-left: 25px;
+  margin-top: 20px;
+}
+
+.footerlink {
+  text-decoration: none;
+  color: #ccd6f6;
+  transition: 0.5s;
+}
+
+.footerlink:hover {
+  color: azure;
+  transition: 0.5s;
+}
+
+.footer-icons a {
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+}
+
+.mail {
+  color: aliceblue;
+}
+
+.social-icons {
+  position: relative;
+  float: right;
+  right: 150px;
+  top: 20px;
+  font-size: 0;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin: 0;
+  font-size: 16px; /* set the font size to the desired value */
+  color: #8892b0;
+}
+
+.social-icons a:not(:last-child) {
+  margin-right: 10px;
 }
