@@ -19,3 +19,6 @@ This uses the MIT license, feel free to use my code, but be a decent human and c
 ![myweb](https://user-images.githubusercontent.com/74088595/219511292-e88681a7-a646-4e54-b56d-ab667cc80e8b.png)
 
 ![interests](https://user-images.githubusercontent.com/74088595/219511945-1573f31a-e353-475f-9b18-94007949264c.png)
+
+### Current Version
+0.90
