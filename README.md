@@ -10,9 +10,9 @@ I used HTML, Vanilla CSS, and JavaScript in this current version. With Visual St
 
 I would like to give credit to MrGigi (https://mrgigi.me) for his site which I took some inspiration from the design of the site.
 
-## License 📜
+## License and Use 📜
 
-This uses the MIT license, feel free to use my code, but be a decent human and credit me.
+This uses the MIT license, feel free to use my code, but be a decent human and credit me. Also if you want send me it, I would love to see what you used my code on!
 
 ## Screenshots 📷
 
