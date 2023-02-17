@@ -20,5 +20,5 @@ This uses the MIT license, feel free to use my code, but be a decent human and c
 
 ![interests](https://user-images.githubusercontent.com/74088595/219511945-1573f31a-e353-475f-9b18-94007949264c.png)
 
-## Current Version
+## Current Version 💾
 Alpha - 0.90
