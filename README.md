@@ -8,7 +8,7 @@ I used HTML, Vanilla CSS, and JavaScript in this current version. With Visual St
 
 ## Credits 😎
 
-I would like to give credit to MrGigi (https://mrgigi.me) for his site which I took some inspiration from the design of the site.
+I would like to give credit to MrGigi (https://mrgigi.me) amd Brittany Chang (https://brittanychang.com) since I took some inspiration on the design from their sites.
 
 ## License and Use 📜
 
@@ -16,9 +16,9 @@ This uses the MIT license, feel free to use my code, but be a decent human and c
 
 ## Screenshots 📷
 
-![myweb](https://user-images.githubusercontent.com/74088595/219511292-e88681a7-a646-4e54-b56d-ab667cc80e8b.png)
+![test](https://user-images.githubusercontent.com/74088595/220236001-1c4807de-046c-458b-acfc-4937a6397b17.png)
 
-![interests](https://user-images.githubusercontent.com/74088595/219511945-1573f31a-e353-475f-9b18-94007949264c.png)
+![projects](https://user-images.githubusercontent.com/74088595/220235965-75e40a77-7407-4e64-a6e8-f85d6423bc14.png)
 
 ## Current Version 💾
-Alpha - 0.90
+Alpha - 2
