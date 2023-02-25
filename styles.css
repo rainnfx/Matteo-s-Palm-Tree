@@ -7,7 +7,7 @@ body {
 }
 
 a {
-text-decoration: none;
+  text-decoration: none;
 }
 
 :root {
@@ -25,238 +25,240 @@ text-decoration: none;
 }
 
 ::selection {
-background: var(--light-navy);
+  background: var(--light-navy);
 }
 
 /* Navigation Bar */
 
-.navigation {
-display: flex;
-justify-content: space-between;
-align-items: center;
-padding: 0.625rem;
-position: fixed;
-top: 0;
-left: 0;
-width: 100%;
-height: 5%;
-z-index: 999; /* Ensure the header stays on top of other elements */
-background-color: rgba(10 25 47 0.5); /* Set a semi-transparent background color */
-backdrop-filter: blur(1.313rem); /* Add a blur effect */
+  .navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.625rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5%;
+  z-index: 999; /* Ensure the header stays on top of other elements */
+  background-color: rgba(10 25 47 0.5); /* Set a semi-transparent background color */
+  backdrop-filter: blur(1.313rem); /* Add a blur effect */
 }
 
 .logo {
-order: 1;
-align-items: center;
-margin-top: 1rem;
+  order: 1;
+  align-items: center;
+  position: relative;
+  top: .7rem;
 }
 
 .buttons {
-order: 2;
-display: flex;
-align-items: center;
+  order: 2;
+  display: flex;
+  align-items: center;
 }
 
 .buttons ol {
-list-style: none;
-counter-reset: my-counter;
-display: flex;
-font-family: var(--sec-font);
-margin-right: 1.875rem; /* Add margin to the right of the ol element */
+  list-style: none;
+  counter-reset: my-counter;
+  display: flex;
+  font-family: var(--sec-font);
+  margin-right: 1.875rem; /* Add margin to the right of the ol element */
+  cursor: pointer;
 }
 
 .button::before {
-counter-increment: my-counter;
-content: "0" counter(my-counter) ". ";
-color: var(--green);
+  counter-increment: my-counter;
+  content: "0" counter(my-counter) ". ";
+  color: var(--green);
 }
 
 .button a {
-color: var(--lightest-slate);
-text-decoration: none;
-transition: 0.5s;
+  color: var(--lightest-slate);
+  text-decoration: none;
+  transition: 0.5s;
 }
 
 .button a:hover {
-color: var(--green);
-transition: 0.5s;
+  color: var(--green);
+  transition: 0.5s;
 }
 
 .buttons ol li {
-margin-right: 2.188rem;
+  margin-right: 2.188rem;
 }
 
 .resume {
-position: relative;
-right: 2.188rem;
-border: 0.063rem solid var(--green);
-border-radius: 0.313rem;
-height: 1.563rem;
-width: 4.375rem;
-padding: 0.313rem;
-padding-top: 0.5rem;
-cursor: pointer;
-transition: 0.2s;
+  position: relative;
+  right: 2.188rem;
+  border: 0.063rem solid var(--green);
+  border-radius: 0.313rem;
+  height: 1.563rem;
+  width: 4.375rem;
+  padding: 0.313rem;
+  padding-top: 0.5rem;
+  cursor: pointer;
+  transition: 0.2s;
 }
 
 .resume a {
-color: var(--green);
-font-family: var(--sec-font);
-display: flex;
-justify-content: center;
-align-items: center;
+  color: var(--green);
+  font-family: var(--sec-font);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .resume:hover {
-background-color: rgba(100, 255, 218, 0.1);
-transition: 0.2s;
+  background-color: rgba(100, 255, 218, 0.1);
+  transition: 0.2s;
 }
 
 
 /* Hero Section */
 
 .hero {
-  display: flex;
-  flex-direction: column;
-  width: 62.5rem;
-  height: 62.5rem;
-  margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 62.5rem;
+    height: 62.5rem;
+    margin: auto;
   }
   
   .hi h1 {
-  color: var(--green);
-  font-family: var(--sec-font);
-  font-size: 1.3125rem;
-  font-weight: 200;
-  margin-bottom: 0; /* Reduce margin-bottom to 0 */
+    color: var(--green);
+    font-family: var(--sec-font);
+    font-size: 1.3125rem;
+    font-weight: 200;
+    margin-bottom: 0; /* Reduce margin-bottom to 0 */
   }
   
   .name {
-  width: 32.5625rem;
-  height: 5.5rem;
+    width: 32.5625rem;
+    height: 5.5rem;
   }
   
   .name h1 {
-  color: var(--lightest-slate);
-  font-size: 4.375rem;
-  width: 32.5625rem;
-  height: 5.5rem;
-  margin: 0;
-  margin-top: 0.3125rem; /* Reduce margin-top to 5px */
+    color: var(--lightest-slate);
+    font-size: 4.375rem;
+    width: 32.5625rem;
+    height: 5.5rem;
+    margin: 0;
+    margin-top: 0.3125rem; /* Reduce margin-top to 5px */
   }
   
   .subtitle {
-  width: 55rem;
-  height: 4.5rem;
+    width: 55rem;
+    height: 4.5rem;
   }
   
   .subtitle h1{
-  color: var(--slate);
-  font-size: 4.0625rem;
-  margin: 0;
+    color: var(--slate);
+    font-size: 4.0625rem;
+    margin: 0;
   }
   
-  .details {
-  color: var(--slate);
-  font-size: 1.0625rem;
-  font-weight: 400;
+    .details {
+    color: var(--slate);
+    font-size: 1.0625rem;
+    font-weight: 400;
   }
   
   /* About Meee */
   
   .about {
-  display: flex;
-  flex-direction: column;
-  width: 62.5rem;
-  height: 62.5rem;
-  margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 62.5rem;
+    height: 62.5rem;
+    margin: auto;
   }
   
   .heading-abt {
-  font-family: var(--sec-font);
-  font-size: 1.875rem;
-  color: var(--light-slate);
-  margin: 0;
+    font-family: var(--sec-font);
+    font-size: 1.875rem;
+    color: var(--light-slate);
+    margin: 0;
   }
   
   .heading-abt::before {
-  counter-increment: my-counter;
-  content: "0" counter(my-counter) ". ";
-  color: var(--green);
-  font-size: 1.375rem;
-  font-weight: 200;
+    counter-increment: my-counter;
+    content: "0" counter(my-counter) ". ";
+    color: var(--green);
+    font-size: 1.375rem;
+    font-weight: 200;
   }
   
   .heading-abt::after {
-  content: "";
-  display: block;
-  position: relative;
-  top: -0.9375rem;
-  width: 50rem;
-  height: 0.0625rem;
-  margin-left: 12.5rem;
-  background-color: var(--lightest-navy);
+    content: "";
+    display: block;
+    position: relative;
+    top: -0.9375rem;
+    width: 50rem;
+    height: 0.0625rem;
+    margin-left: 12.5rem;
+    background-color: var(--lightest-navy);
   }
   
   .words p {
-  color: var(--slate);
-  font-size: 1.0625rem;
-  font-weight: 400;
+    color: var(--slate);
+    font-size: 1.0625rem;
+    font-weight: 400;
   }
   
   .interests {
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
   }
   
   .programming {
-  width: 30rem;
-  height: 27.48125rem;
+    width: 30rem;
+    height: 27.48125rem;
   }
   
   .nature {
-  width: 30rem;
-  height: 27.48125rem;
-  display: inline-block;
+    width: 30rem;
+    height: 27.48125rem;
+    display: inline-block;
   }
   
   .brba {
-  width: 30rem;
-  height: 27.48125rem;
+    width: 30rem;
+    height: 27.48125rem;
   }
   
   .tech {
-  width: 30rem;
-  height: 27.48125rem;
-  display: inline-block;
+    width: 30rem;
+    height: 27.48125rem;
+    display: inline-block;
   }
   
   .giff {
-  border-radius: 0.4375rem;
+    border-radius: 0.4375rem;
   }
   
   .topic {
-  color: #ccd6f6;
-  margin: 0;
-  margin-bottom: 0.125rem;
+    color: #ccd6f6;
+    margin: 0;
+    margin-bottom: 0.125rem;
   }
   
   .info {
-  margin: 0;
-  position: relative;
-  color: var(--slate);
-  top: 0.4375rem;
+    margin: 0;
+    position: relative;
+    color: var(--slate);
+    top: 0.4375rem;
   }
   
   /* My Epic Projects */
   
   .projects {
-  display: flex;
-  flex-direction: column;
-  width: 62.5rem;
-  height: 37.5rem;
-  margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 62.5rem;
+    height: 37.5rem;
+    margin: auto;
   }
   
   :root {
