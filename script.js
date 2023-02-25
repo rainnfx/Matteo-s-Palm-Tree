@@ -1,5 +1,21 @@
 // Scroll Effects
 
+function scrollToSection(abt) {
+  var section = document.getElementById(abt);
+  section.scrollIntoView({ behavior: 'smooth' });
+}
+
+function scrollToSection(projectss) {
+  var section = document.getElementById(projectss);
+  section.scrollIntoView({ behavior: 'smooth' });
+}
+
+function scrollToSection(contact) {
+  var section = document.getElementById(contact);
+  section.scrollIntoView({ behavior: 'smooth' });
+}
+
+
 // Navigation
 
 ScrollReveal().reveal('.logo', { delay: 400 });
