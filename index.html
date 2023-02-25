@@ -15,7 +15,7 @@
   <body>
 
     <header>
-      <nav class="navigation">
+      <nav class="navigation" id="navigation">
         <div class="logo">
           <a href="./index.html">
             <img src="./assets/head.png" height="85" width="85" />
@@ -24,14 +24,14 @@
     
         <div class="buttons">
           <ol>
-            <li class="button fadedown-enter-done">
+            <li class="button fadedown-enter-done" onclick="scrollToSection('abt')">
               <a>About</a>
             </li>
-            <li class="button fadedown-enter-done">
-              <a href="#projectss">Projects</a>
+            <li class="button fadedown-enter-done" onclick="scrollToSection('projectss')">
+              <a>Projects</a>
             </li>
-            <li class="button fadedown-enter-done">
-              <a href="#contact">Contact</a>
+            <li class="button fadedown-enter-done" onclick="scrollToSection('contact')">
+              <a>Contact</a>
             </li>
           </ol>
     
@@ -72,6 +72,7 @@
         </section>
 
         <section class="about" id="abt">
+          <br><br><br>
           <h2 class="heading-abt">About Me</h2>
           <div class="words">
             <p>Hiya! My name is Matteo as you know. I have been wanting to program since I was 9, 
@@ -132,7 +133,7 @@
         </section>
 
         <section class="projects" id="projectss">
-
+          <br><br><br>
           <h2 class="heading-prjs">My Projects</h2>
           <div class="words-prj">
             <p>I haven't done much yet, but overtime I will add my projects I have accomplished. For now all I have done is this site.
@@ -165,7 +166,7 @@
         </section>
 
         <section id="contact" class="contact">
-
+          <br><br><br>
           <h2 class="heading-cnact">Contact Me</h2>
           <div class="words-cnact">
             <p>My inbox is always open, wether it's a question, 
