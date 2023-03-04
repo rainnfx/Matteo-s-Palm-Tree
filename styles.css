@@ -603,7 +603,7 @@ a {
   }
 }
 
-@media (max-width: 360px) {
+@media (min-width: 360px) {
   
   .logo {
   order: 1;
