@@ -524,6 +524,7 @@ nav {
   }
   .buttons ol {
     flex-direction: column;
+    margin-top: 2px
   }
   
   .buttons ol li {
