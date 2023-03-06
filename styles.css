@@ -526,10 +526,6 @@ nav {
     flex-direction: column;
   }
 
-  .buttons ol li {
-    font-size: 2px;
-  }
-
   .menu-toggle {
       background-color: transparent;
       border: none;
