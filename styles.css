@@ -525,6 +525,10 @@ nav {
   .buttons ol {
     flex-direction: column;
   }
+  
+  .buttons ol li {
+    margin-top: 5px
+  }
 
   .menu-toggle {
       background-color: transparent;
