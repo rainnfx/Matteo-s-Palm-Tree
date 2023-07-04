@@ -8,7 +8,7 @@ I used HTML, Vanilla CSS, and JavaScript in this current version. With Visual St
 
 ## Credits 😎
 
-I would like to give credit to MrGigi (https://mrgigi.me) amd Brittany Chang (https://brittanychang.com) since I took some inspiration on the design from their sites.
+I would like to give credit to MrGigi (https://mrgigi.me) amd Brittany Chang (https://v4.brittanychang.com) since I took some inspiration on the design from their sites.
 
 ## License and Use 📜
 
